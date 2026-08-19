@@ -1,0 +1,12 @@
+2026-08-18 14:15:36,130 - com.telusko.Log4jDemo - [process] - (TRACE) - From the trace method -
+2026-08-18 14:15:36,134 - com.telusko.Log4jDemo - [process] - (DEBUG) - From the debug method -
+2026-08-18 14:15:36,134 - com.telusko.Log4jDemo - [process] - (INFO) - From the info method -
+2026-08-18 14:15:36,136 - com.telusko.Log4jDemo - [process] - (WARN) - From the warn method -
+2026-08-18 14:15:36,137 - com.telusko.Log4jDemo - [process] - (ERROR) - From the error method -
+2026-08-18 14:15:36,137 - com.telusko.Log4jDemo - [process] - (FATAL) - From the fatal method -
+2026-08-18 14:41:34,728 - com.telusko.Log4jDemo - [process] - (TRACE) - From the trace method -
+2026-08-18 14:41:34,734 - com.telusko.Log4jDemo - [process] - (DEBUG) - From the debug method -
+2026-08-18 14:41:34,735 - com.telusko.Log4jDemo - [process] - (INFO) - From the info method -
+2026-08-18 14:41:34,738 - com.telusko.Log4jDemo - [process] - (WARN) - From the warn method -
+2026-08-18 14:41:34,739 - com.telusko.Log4jDemo - [process] - (ERROR) - From the error method -
+2026-08-18 14:41:34,739 - com.telusko.Log4jDemo - [process] - (FATAL) - From the fatal method -

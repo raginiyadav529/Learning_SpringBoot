@@ -1,0 +1,19 @@
+[ 2026-08-19 19:32:54,738 ] : com.ragini.SpringBootLog4jDemoApplication : INFO -->  Starting SpringBootLog4jDemoApplication using Java 24.0.1 with PID 13932 (C:\Users\Ragini yadav\OneDrive\Desktop\IdeaProjects\Log4JProject\SpringBoot_Log4jDemo\target\classes started by Ragini yadav in C:\Users\Ragini yadav\OneDrive\Desktop\IdeaProjects\Log4JProject\SpringBoot_Log4jDemo) : logStarting   
+[ 2026-08-19 19:32:54,755 ] : com.ragini.SpringBootLog4jDemoApplication : INFO -->  No active profile set, falling back to 1 default profile: "default" : logStartupProfileInfo   
+[ 2026-08-19 19:32:56,796 ] : org.springframework.boot.tomcat.TomcatWebServer : INFO -->  Tomcat initialized with port 8080 (http) : initialize   
+[ 2026-08-19 19:32:56,829 ] : org.apache.catalina.core.StandardService : INFO -->  Starting service [Tomcat] : log   
+[ 2026-08-19 19:32:56,830 ] : org.apache.catalina.core.StandardEngine : INFO -->  Starting Servlet engine: [Apache Tomcat/11.0.22] : log   
+[ 2026-08-19 19:32:56,915 ] : org.springframework.boot.web.context.servlet.WebApplicationContextInitializer : INFO -->  Root WebApplicationContext: initialization completed in 1938 ms : prepareWebApplicationContext   
+[ 2026-08-19 19:32:57,648 ] : org.springframework.boot.tomcat.TomcatWebServer : INFO -->  Tomcat started on port 8080 (http) with context path '/' : start   
+[ 2026-08-19 19:32:57,660 ] : com.ragini.SpringBootLog4jDemoApplication : INFO -->  Started SpringBootLog4jDemoApplication in 4.01 seconds (process running for 4.681) : logStarted   
+[ 2026-08-19 19:33:10,827 ] : org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO -->  Initializing Spring DispatcherServlet 'dispatcherServlet' : log   
+[ 2026-08-19 19:33:10,828 ] : org.springframework.web.servlet.DispatcherServlet : INFO -->  Initializing Servlet 'dispatcherServlet' : initServletBean   
+[ 2026-08-19 19:33:10,831 ] : org.springframework.web.servlet.DispatcherServlet : INFO -->  Completed initialization in 3 ms : initServletBean   
+[ 2026-08-19 19:33:10,949 ] : com.ragini.controller.HomeController : INFO -->  Control in API1 : greet   
+[ 2026-08-19 19:33:10,950 ] : com.ragini.service.HomeService : TRACE -->  Business logic in Service layer : greet   
+[ 2026-08-19 19:33:10,951 ] : com.ragini.controller.HomeController : TRACE -->  Control in trace ! : greet   
+[ 2026-08-19 19:33:10,952 ] : com.ragini.controller.HomeController : DEBUG -->  Control in debug : greet   
+[ 2026-08-19 19:33:10,953 ] : com.ragini.controller.HomeController : WARN -->  Control in warn ! : greet   
+[ 2026-08-19 19:33:10,954 ] : com.ragini.controller.HomeController : ERROR -->  Control in error ! : greet   
+[ 2026-08-19 19:33:44,531 ] : org.springframework.boot.tomcat.GracefulShutdown : INFO -->  Commencing graceful shutdown. Waiting for active requests to complete : shutDownGracefully   
+[ 2026-08-19 19:33:44,537 ] : org.springframework.boot.tomcat.GracefulShutdown : INFO -->  Graceful shutdown complete : doShutdown   
