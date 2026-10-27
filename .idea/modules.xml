@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Log4JProject.iml" filepath="$PROJECT_DIR$/.idea/Log4JProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LEARNING-SPRINGBOOT.iml" filepath="$PROJECT_DIR$/.idea/LEARNING-SPRINGBOOT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-Framework/Spring-Core/Spring-Framework.iml" filepath="$PROJECT_DIR$/Spring-Framework/Spring-Core/Spring-Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-InterviewPractice/SpringBoot-InterviewPractice.iml" filepath="$PROJECT_DIR$/SpringBoot-InterviewPractice/SpringBoot-InterviewPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot_Log4jDemo/SpringBoot_Log4jDemo.iml" filepath="$PROJECT_DIR$/SpringBoot_Log4jDemo/SpringBoot_Log4jDemo.iml" />
     </modules>
   </component>
 </project>

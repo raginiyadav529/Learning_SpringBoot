@@ -1,0 +1,29 @@
+# ==========================================
+# IntelliJ IDEA & Global IDE
+# ==========================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ==========================================
+# OS & Logs
+# ==========================================
+*.log
+logs/
+.DS_Store
+
+# ==========================================
+# Sub-projects Build Folders
+# ==========================================
+# This ensures Maven/Gradle target folders in ANY sub-project are ignored
+**/target/
+**/build/
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+*.env
+!.env.example

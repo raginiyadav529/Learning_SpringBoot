@@ -6,13 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-Framework" />
+        <module name="SpringBoot-InterviewPractice" />
         <module name="Log4jDemoProject" />
         <module name="SpringBoot_Log4jDemo" />
+        <module name="SpringBootApp1" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot-InterviewPractice" options="-parameters" />
+      <module name="SpringBootApp1" options="-parameters" />
       <module name="SpringBoot_Log4jDemo" options="-parameters" />
     </option>
   </component>

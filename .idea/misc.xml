@@ -5,7 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Log4jDemoProject/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Framework/Spring-Core/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-Framework/SpringBootApp1/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBoot_Log4jDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-InterviewPractice/pom.xml" />
       </list>
     </option>
   </component>
