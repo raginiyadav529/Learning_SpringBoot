@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@Scope("session")
+//@Scope("session")
 
 public class HomeController {
 

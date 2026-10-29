@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-@Scope("session")
+//@Scope("session")
 
 //@Scope(value = "session", proxyMode = ScopedProxyMode.TARGET_CLASS)
 // virtual bean if we need to create at startup  .
