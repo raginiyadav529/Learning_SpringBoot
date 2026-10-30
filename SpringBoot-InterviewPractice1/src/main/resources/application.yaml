@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: SpringBoot-InterviewPractice1
+
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 8081
+feature:
+  2fa:
+    enabled: true
+    provider: sms
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: test
+server:
+  port: 8082
+feature:
+  2fa:
+    enabled: false
+    provider: sms
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
+server:
+  port: 8083
+feature:
+  2fa:
+    enabled: true
+    provider: email
