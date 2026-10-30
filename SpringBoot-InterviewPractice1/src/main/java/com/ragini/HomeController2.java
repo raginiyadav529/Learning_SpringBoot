@@ -16,7 +16,7 @@ public class HomeController2 {
     private Environment environment;
 
     @GetMapping("/send")
-    public  void send2faCode(){
+    public  void send2faCode(){  //  // Using Environment Reference approach
 
      Boolean is2fa = environment.getProperty("feature.2fa.enabled",Boolean.class);
        String provider = environment.getProperty("feature.2fa.provider");
@@ -34,7 +34,7 @@ public class HomeController2 {
         // throw some error
     }
 
-    /*
+    /*                            // Using @ConfigurationProperties approach
     @GetMapping("/send")
     public  void send2faCode(){
 
@@ -51,7 +51,8 @@ public class HomeController2 {
     }
      */
 
-    /*
+    /*   // Using @Value approach
+
     @Value("${feature.2fa.enabled}")
     private boolean is2faEnabled ;
 

@@ -25,7 +25,7 @@ public class HomeController {
         return twoFAuthenticationProperties.isEnabled() ;
     }
 
-    /*
+    /*   // Using @Value approach
     @Value("${feature.2fa.enabled}")
     private boolean is2fa;
 
